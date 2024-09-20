@@ -11,19 +11,29 @@
 
 
 .logo {
-    display: inline-block;
-    position: absolute;
-    width: 23vh;
-    left: 5rem;
+    width: 25vh;
+    left: 3rem;
     object-fit: contain;
-    margin-top: 0.5rem;
+}
 
+.navbar-container .logo {
+    position: absolute;
+    top: 0;
+    margin-top: 0.7rem;
+}
+
+.banner-image {
+    background-image: url("../img/Banner.png");
+    background-size: cover;
+    height: 54vh;
+    width: 100%;
 }
 
 
 article {
     background-color: #314a76;
     opacity: 0.9;
+    padding-top: 1rem;
 }
 
 h1 {
@@ -311,7 +321,7 @@ form { max-width:350px;
     outline:0;
   }
   
-  .feedback-input:focus { border:2px solid #ddd; }
+  .feedback-input:focus { border:2px solid #fff; }
   
   textarea {
     height: 150px;

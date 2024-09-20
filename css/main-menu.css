@@ -7,19 +7,20 @@
 .navbar-container {
 	display: flex;	
 	justify-content:center;
-	padding: 2rem;
+	padding: 2.5rem;
 
 }
 
 .btn{
 	color:#fff;
-	background:#8dc63f;
+	background:#7fb533;
 	padding:15px 25px;
 	font-size:15px;
 	font-weight: bold;
 	text-decoration:none;
 	letter-spacing:2px;
 	text-transform:uppercase;
+	border-radius: 0.5rem;
 
   }
   
@@ -27,7 +28,7 @@
 	border:none;
 	background:#fff;
 	background:#314a76;
-	padding:20px 20px; #000;
+	padding:20px 20px;
 	color:#fff;
   }
 
