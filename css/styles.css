@@ -42,24 +42,10 @@ h1 {
     padding-bottom: 1.5rem;  
 }
 
-@use postcss-mixins;
-@use postcss-nested;
-@use postcss-simple-vars;
-
-@define-mixin atMedium {
-  @media (min-width: 600px) {
-    @mixin-content;
-  }
-}
-@define-mixin atLarge {
-  @media (min-width: 900px) {
-    @mixin-content;
-  }
-}
 
 .container-wrapper {
     margin: 0 auto;
-    max-width: 130vh;
+    max-width: 150vh;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
