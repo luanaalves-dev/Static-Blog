@@ -1,0 +1,167 @@
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #8dc63f;
+    padding: 2rem;
+}
+
+
+
+.left-box img {
+    width: 250px;
+    object-fit: contain;
+    margin-bottom: 2rem;
+}
+
+.left-box h2 {
+    color: #fff;
+     font-size: 15px; 
+}
+
+.main-content {
+    display: flex;
+    gap: 3rem;
+   
+}
+
+.main-content .left-box {
+    padding: 2rem;
+}
+
+.left-box h3 {
+    font-size: 1rem;
+    color: #fff;
+    margin-top: 1rem;
+    padding-right: 1rem 0;
+}
+
+.social h3 {
+    color: #314a76;
+    margin-bottom: 0.5rem;
+}
+
+.social p  {
+    padding: 0.5rem 0 0;
+    padding-right: 1.5rem;
+    margin-top: 1.2rem;
+}
+
+.social a i {
+    margin-top: 1rem;
+    padding: 0.2rem 0;  
+    color: #314a76;
+    background-color: #fff;
+    text-align: center;
+    width: 1.5rem;
+    font-size: 20px;
+    border-radius: 5px;   
+}
+
+.social a i:hover {
+    background-color: #ddd;
+}
+   
+
+.center-box h3{
+    padding-bottom: 1rem;
+    color: #314a76;
+
+}
+
+
+.content .place h4 {
+    padding-bottom: 1rem;
+    color: #fff; 
+}
+
+
+.center-box .content .icons {
+    color: #314a76;
+}
+
+.content .place {
+    padding-top: 0.5rem;
+}
+
+.content .phone {
+    padding-top: 0.5rem;
+}
+
+.content .email {
+    padding-top: 0.5rem;
+}
+
+.content .place-2 h4 {
+    margin-top:1rem;
+    padding-bottom: 1rem;
+    color: #fff; 
+}
+
+.content .place-2 .text {
+    padding-top: 0.5rem;
+}
+
+.content .place-2 .phone {
+    padding-top: 0.5rem;
+}
+
+.email {
+    border-radius: 1rem;
+}
+
+
+.right-box {
+    display:block;
+    justify-content: right;
+    
+}
+
+.right-box h3 {
+    color: #314a76;
+}
+
+form { max-width:350px;
+     margin: 1.7rem auto; }
+
+
+.feedback-input {
+    color:white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 5px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid #314a76;
+    transition: all 0.3s;
+    padding: 1rem;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    outline:0;
+  }
+  
+  .feedback-input:focus { border:2px solid #fff; }
+  
+  textarea {
+    height: 150px;
+    line-height: 150%;
+    resize:vertical;
+  }
+  
+  [type="submit"] {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 100%;
+    background:#314a76;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:20px;
+    padding-top: 0.5rem;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:500;
+  }
+  [type="submit"]:hover { background:#56b3db; }
