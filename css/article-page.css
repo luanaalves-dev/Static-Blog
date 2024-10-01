@@ -11,21 +11,20 @@
 .banner-article {
     background-image: url("../img/banner\ article.png");
     background-size: cover;
-    height: 39.8vh;
+    height: 38vh;
     width: 100%;
 }
 
 main {
-    background-image: url(../img/kit\ workout.jpg);
+    background-image: url(../img/kit-training.jpg);
     padding-bottom: 3rem;  
-    width: 100%;
-    
+    width: 100%;   
 }
 
 .article-main {
     display: flex;
-    flex-direction: column;
-    width: 85%;
+    flex-direction:column;
+    width: 90%;
     padding: 2rem;
     gap: 3rem;
     margin-top: 3rem;
@@ -59,10 +58,10 @@ article {
 .featured-image img{
   object-fit: cover;
   width: 52vh;
-  height: 32vh ;
+  height: 40vh ;
   border-radius: 0.8rem;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);   
-  margin-top: 1.5rem;
+  margin-top: 3rem;
 }
 
 h3 {
@@ -72,12 +71,12 @@ h3 {
 }
 
 .article-paragraph p {
-    padding: 0 0 0.5rem;
-    margin-top: 2rem;
-        font-size: 1rem;
-        line-height: 1.5;
-        letter-spacing: 0.5px;
-      }
+   padding: 0 0 0.5rem;
+   margin-top: 2rem;
+   font-size: 1rem;
+   line-height: 1.5;
+   letter-spacing: 0.5px;
+}
 
 h2 {
     color: #314a76;
