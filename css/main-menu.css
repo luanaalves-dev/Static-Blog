@@ -6,7 +6,7 @@
 .navbar-container {
 	display: flex;	
 	justify-content:center;
-	padding: 2.5rem;
+	padding: 2.8rem;
 
 }
 
@@ -32,8 +32,8 @@
   }
 
   .logo {
-    width: 23vh;
-    left: 3rem;
+    width: 22vh;
+    left: 5rem;
     object-fit: contain;
 }
 
