@@ -11,7 +11,7 @@
 .banner-article {
     background-image: url("../img/banner-article.png");
     background-size: cover;
-    height: 38vh;
+    height: 37vh;
     width: 100%;
 }
 
@@ -41,7 +41,7 @@ article {
 .article-container {
     display: flex;
     flex-direction: row;
-    background-color: #ddd;
+    background-color: #55809e;
     border-radius: 1rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
     padding: 2.5rem;
@@ -54,7 +54,7 @@ article {
   left: 50%;
   transform: translate(-40%, -50%);
   font-size: 2rem;
-  color: #314a76;
+  color: #fff;
 }
 
 .featured-image img{
@@ -67,26 +67,25 @@ article {
 }
 
 h3 {
-    color: #080909;
+    color: #fff;
     padding: 0 0 0.5rem;
-    margin-top: 4rem;
+    margin-top: 3.5rem;
+    font-size: 1.3rem;
 }
 
-p {
+.article-text p {
    padding: 0 0 0.5rem;
    margin-top: 2rem;
-   font-size: 1rem;
+   font-size: 1.5rem;
    line-height: 1.5;
    letter-spacing: 0.5px;
 }
 
-h2 {
-    color: #314a76;
-    margin-top: 4rem;
+.article-text h2 {
+    color: #fff;
+    margin-top: 3rem;
 }
 
-.article-text p {
-    font-size: 2rem;
-}
+
 
 
