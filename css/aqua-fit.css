@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    box-sizing: border-box;
+    text-decoration:none;
+    list-style: none;
+}
+
+
+.banner-article {
+    background-image: url("../img/banner-article.png");
+    background-size: cover;
+    height: 38.5vh;
+    width: 100%;
+
+}
+
+main {
+    background-image: url(../img/Pool.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 3rem;    
+}
+
+.article-main {
+    display: flex;
+    flex-direction:column;
+    width: 90%;
+    padding: 2rem;
+    gap: 3rem;
+    margin-top: 3rem;
+    background-color: #fff;
+    border-radius: 1.5rem;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+h1 {
+     text-align: center;
+     padding: 0.5rem;
+     font-size: 2rem;
+     color: #fff;
+     margin-top: 1rem;
+}
+
+.article-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #5eb5d1;
+    border-radius: 1rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
+    padding: 2rem;
+    gap:2rem;
+}
+
+.featured-image img{
+  object-fit: cover;
+  width: 90%;
+  height: 70vh;
+  margin-left: 6rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);   
+  margin-top: 2rem;
+}
+
+.article-container-aquatic {
+    display: flex;
+    background-color: #5eb5d1;
+    border-radius: 1rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
+    padding: 2.5rem;
+    gap: 2rem;
+}
+
+.image-aquatic img {
+    object-fit: cover;
+    width: 70vh;
+    border-radius: 0.8rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
+    margin-top: 3.5rem;  
+
+}
+
+.article-container-hydration {
+    display: flex;
+    flex-direction: row;
+    background-color: #5eb5d1;
+    border-radius: 1rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
+    padding: 2.5rem;
+    gap:2rem;
+}
+
+.image-aquafit img {
+    object-fit: cover;
+    width: 100vh;
+    border-radius: 0.8rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);   
+    margin-top: 3.5rem;
+}
+
+h3 {
+    color: #fff;
+    padding: 0 0 1rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+ 
+.article-paragraph h2 {
+    color: #fff;
+    padding: 0 0 1rem;
+    margin-top: 2rem;
+
+}
+
+.article-paragraph p {
+   padding: 0.5rem;
+   font-size: 1.5rem;
+   line-height: 1.5;
+   letter-spacing: 1px;
+}
+
+ li {
+    display: list-item;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.bold {
+    font-weight: bold;
+    color: #fff;
+}
