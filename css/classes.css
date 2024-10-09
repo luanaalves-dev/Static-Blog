@@ -16,7 +16,7 @@
 }
 
 main {
-    background-image: url(../img/kit-training.jpg);
+    background-image: url(../img/gym-studio.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 3rem;  
@@ -42,7 +42,7 @@ article {
 .article-container {
     display: flex;
     flex-direction: row;
-    background-color: #55809e;
+    background-color: #d5bdaf;
     border-radius: 1rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
     padding: 2.5rem;
@@ -86,7 +86,3 @@ h3 {
     color: #fff;
     margin-top: 3rem;
 }
-
-
-
-
