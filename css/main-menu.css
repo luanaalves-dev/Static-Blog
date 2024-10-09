@@ -21,26 +21,24 @@
 	text-transform:uppercase;
 	border-radius: 0.5rem;
 
-  }
+}
   
-  .btn:hover{
+.btn:hover{
 	border:none;
 	background:#fff;
 	background:#314a76;
 	padding:20px 20px;
 	color:#fff;
-  }
-
-  .logo {
-    width: 22vh;
-    left: 5rem;
-    object-fit: contain;
 }
 
 .navbar-container .logo {
+	width: 22vh;
+	height: 9vh;
+    left: 10rem;
+    object-fit: contain;
     position: absolute;
-    top: 0%;
-    margin-top: 0.7rem;
+	transform: translate(-20%, -40%);
+   
 }
 
 .banner-image {
