@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Tahoma, sans-serif ;
+    box-sizing: border-box;
+    
+}
+
+
+.banner-article {
+    background-image: url("../img/banner-article.png");
+    background-size: cover;
+    height: 38vh;
+    width: 100%;
+
+}
+
+main {
+    background-image: url(../img/swimmer-pool.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 3rem;    
+}
+
+.article-main {
+    display: flex;
+    flex-direction:column;
+    width: 80%;
+    padding: 2rem;
+    gap: 3rem;
+    margin-top: 3rem;
+    border-radius: 1.5rem;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+h1 {
+     text-align: center;
+     padding: 0.5rem;
+     font-size: 2.5rem;
+     font-weight: bold;
+     color: #1b4965;
+     margin-top: 1rem;
+}
+
+.article-container-aerobics {
+    display: flex;
+    flex-direction: column;
+    background-color: #90e0ef;
+    border-radius: 1rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
+    padding: 2rem;
+    gap:2rem;
+}
+
+.featured-image img{
+  object-fit: cover;
+  width: 100vh;
+  height: 50vh;
+  margin-left: 5rem;
+  border-radius: 0.8rem;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);   
+  margin-top: 2rem;
+}
+
+.article-container-aquatic {
+    display: flex;
+    background-color: #90e0ef;
+    border-radius: 1rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
+    padding: 2.5rem;
+    gap: 2rem;
+}
+
+.image-aquatic img {
+    object-fit: cover;
+    width: 70vh;
+    border-radius: 0.8rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
+    margin-top: 2rem;  
+    margin-left: 5rem;
+    
+    
+}
+
+.article-container-aquafit {
+    display: flex;
+    flex-direction: column;
+    background-color: #90e0ef;
+    border-radius: 1rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
+    padding: 2.5rem;
+   
+}
+
+.image-aquafit img {
+    object-fit: cover;
+    width: 80vh;
+    height: 40vh;
+    margin-left: 5rem;
+    border-radius: 0.8rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);   
+    margin-top: 3.5rem;
+}
+
+h3 {
+    color: #1b4965;
+    padding: 0 0 1rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    padding-left: 3rem;
+}
+ 
+.article-paragraph h2 {
+    color: #1b4965;
+    padding: 0 0 1rem;
+    margin-top: 2rem;
+
+}
+
+.article-paragraph p {
+   padding: 0.5rem 0;
+   margin: 0.5rem 0;
+   font-size: 1.3rem;
+   line-height: 1.5;
+   letter-spacing: 1px;
+   padding-left: 3rem;
+   text-align: justify;
+   display: table;
+   word-break: break-word;
+   
+}
+
+.bold {
+    font-weight: bold;
+    color: #1b4965;
+}
+
+.article-paragraph ul li {
+    margin-left: 3.5em;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+}
