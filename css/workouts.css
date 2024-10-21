@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    box-sizing: border-box;
+    text-decoration:none;
+    list-style: none;
+}
+
+
+.banner-article {
+    background-image: url("../img/banner-article.png");
+    background-size: cover;
+    height: 37.4vh;
+    width: 100%;
+}
+
+main {
+    background-image: url(../img/gym-studio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 3rem;  
+    width: 100%;   
+}
+
+.article-main {
+    display: flex;
+    flex-direction:column;
+    width: 90%;
+    padding: 2rem;
+    gap: 3rem;
+    margin-top: 3rem;
+    border-radius: 1.5rem;
+}
+
+article {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.article-container {
+    display: flex;
+    flex-direction: row;
+    background-color: #8bc53f;
+    border-radius: 1rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
+    padding: 2.5rem;
+    padding-top: 5rem;
+    gap:1rem;
+}
+
+.title h1 {
+  display: block;
+  position: absolute;
+  left: 50.5%;
+  transform: translate(-40%, -50%);
+  font-size: 1.7rem;
+  color: #000000;
+  padding-bottom: 4rem;
+}
+
+.featured-image img{
+  object-fit: cover;
+  width: 60vh;
+  height: 40vh;
+  border-radius: 0.8rem;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);   
+  margin: 2rem;
+}
+
+h3 {
+    color: #000000;
+    font-size: 1.5rem;
+    padding-left: 1rem;
+}
+
+.article-text p {
+   padding: 0.5rem 0;
+   margin: 0.5rem 0;
+   font-size: 1.3rem;
+   line-height: 1.5;
+   letter-spacing: 1px;
+   padding-left: 1rem;
+   padding-right: 4rem;
+   text-align: justify;
+   display: table;
+   word-break: break-word;
+}
+
+.article-text h2 {
+    color: #000000;
+    padding-bottom: 2rem;
+}
+
+.article-text .bold {
+   font-weight: bold;
+   color: #000000;
+}

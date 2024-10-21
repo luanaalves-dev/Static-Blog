@@ -10,7 +10,7 @@
 .banner-article {
     background-image: url("../img/banner-article.png");
     background-size: cover;
-    height: 38vh;
+    height: 37.4vh;
     width: 100%;
 
 }
@@ -39,8 +39,8 @@ article {
 }
 
 h1 {
-     text-align: center;
      padding: 0.5rem;
+     margin-left: 2.5rem;
      font-size: 2.5rem;
      font-weight: bold;
      color: #1b4965;
@@ -78,11 +78,11 @@ h1 {
 
 .image-aquatic img {
     object-fit: cover;
-    width: 70vh;
+    width: 60vh;
     border-radius: 0.8rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
-    margin-top: 2rem;  
-    margin-left: 5rem;
+    margin-top: 3rem;  
+    margin-left: 3rem;
     
     
 }
@@ -99,12 +99,12 @@ h1 {
 
 .image-aquafit img {
     object-fit: cover;
-    width: 80vh;
-    height: 40vh;
-    margin-left: 5rem;
+    width: 90vh;
+    height: 45vh;
+    margin-left: 1rem;
     border-radius: 0.8rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);   
-    margin-top: 3.5rem;
+    margin-top: 3rem;
 }
 
 h3 {
@@ -112,7 +112,7 @@ h3 {
     padding: 0 0 1rem;
     margin-top: 2rem;
     font-size: 1.5rem;
-    padding-left: 3rem;
+    padding-left: 2rem;
 }
  
 .article-paragraph h2 {
@@ -128,11 +128,11 @@ h3 {
    font-size: 1.3rem;
    line-height: 1.5;
    letter-spacing: 1px;
-   padding-left: 3rem;
+   padding-left: 2rem;
+   padding-right: 3rem;
    text-align: justify;
    display: table;
-   word-break: break-word;
-   
+   word-break: break-word;  
 }
 
 .bold {
@@ -141,7 +141,7 @@ h3 {
 }
 
 .article-paragraph ul li {
-    margin-left: 3.5em;
+    margin-left: 4em;
     padding: 0.5rem;
     font-size: 1.3rem;
 }

@@ -42,10 +42,20 @@
 }
 
 .banner-image {
-    background-image: url("../img/Banner.png");
+    background-image: url("../img/banner-4.jpg");
     background-size: cover;
-    height: 51vh;
+    height: 59.5vh;
     width: 100%;
+	
+}
+
+.navbar-container a i {
+    color: #314a76;
+    background-color: #fff;
+    text-align: right;
+    width: 3rem;
+    font-size: 30px;
+    border-radius: 5px;   
 }
 
 
