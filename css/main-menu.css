@@ -34,7 +34,7 @@
 .navbar-container .logo {
 	width: 22vh;
 	height: 9vh;
-    left: 10rem;
+    left: 7rem;
     object-fit: contain;
     position: absolute;
 	transform: translate(-20%, -40%);
@@ -42,21 +42,35 @@
 }
 
 .banner-image {
-    background-image: url("../img/banner-4.jpg");
+    background-image: url("../img/Photo-banner.jpg");
     background-size: cover;
     height: 59.5vh;
     width: 100%;
+	margin-right: 2rem;
+	margin-bottom: 1rem;
 	
 }
 
-.navbar-container a i {
+.social-nav a i {
+	background-color: #fff;
     color: #314a76;
-    background-color: #fff;
-    text-align: right;
+    text-align: center;
     width: 3rem;
-    font-size: 30px;
+    font-size: 40px;
     border-radius: 5px;   
 }
+
+.social-nav {
+   position: absolute;
+   right: 5%;
+   transform: translate(-0%, -22%);
+}
+
+.social-nav a i:hover {
+    background-color: #ddd;
+	padding: 0.3rem 0; 
+}
+
 
 
 

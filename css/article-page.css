@@ -49,24 +49,20 @@ article {
     gap:2rem;
 }
 
-.title h1 {
-  display: block;
-  position: absolute;
-  left:49.3%;
-  transform: translate(-50%, -50%);
+h1 {
+  padding-left: 2rem;
   font-size: 2rem;
   color: #fff;
-  
-
 }
 
 .featured-image img{
   object-fit: cover;
-  width: 50vh;
-  height: 35vh ;
+  width: 60vh;
+  height: 40vh ;
   border-radius: 0.8rem;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);   
-  margin: 2rem;
+  margin: 1rem;
+  margin-top: 4rem;
 }
 
 .article-text p {

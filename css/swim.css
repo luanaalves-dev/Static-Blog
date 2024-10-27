@@ -25,7 +25,7 @@ main {
 .article-main {
     display: flex;
     flex-direction:column;
-    width: 80%;
+    width: 90%;
     padding: 2rem;
     gap: 3rem;
     margin-top: 3rem;

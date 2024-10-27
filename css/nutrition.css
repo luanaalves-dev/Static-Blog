@@ -26,7 +26,7 @@ main {
 .article-main {
     display: flex;
     flex-direction:column;
-    width: 80%;
+    width: 90%;
     padding: 2rem;
     gap: 3rem;
     margin-top: 3rem;
@@ -72,17 +72,18 @@ h1 {
     background-color: #b0c4b1;
     border-radius: 1rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
-    padding: 2.5rem;
+    padding: 2rem;
     gap: 1rem;
 }
 
 .image-meal img {
     object-fit: cover;
-    width: 60vh;
+    width: 65vh;
+    height: 50vh;
     border-radius: 0.8rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
     margin-top: 3.5rem; 
-    margin-left: 2.5rem; 
+    margin-left: 2rem; 
 
 }
 
@@ -92,14 +93,14 @@ h1 {
     background-color: #b0c4b1;
     border-radius: 1rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
-    padding: 2.5rem;
+    padding: 2rem;
     gap:1rem;
 }
 
 .image-hydration img {
     object-fit: cover;
-    width: 55vh;
-    height: 38vh;
+    width: 60vh;
+    height: 42vh;
     border-radius: 0.8rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);   
     margin-top: 3.5rem;
@@ -138,7 +139,7 @@ h3 {
  li {
     display: list-item;
     padding: 0.5rem;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding-left: 4rem;
     padding-right: 4rem;
 }
