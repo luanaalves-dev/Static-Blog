@@ -23,7 +23,7 @@ footer {
 }
 
 .main-content .left-box {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .left-box h3 {
@@ -161,3 +161,59 @@ form { max-width:350px;
     font-weight:500;
   }
   [type="submit"]:hover { background:#56b3db; }
+
+ 
+  /* Resposibilidade */
+  @media screen and (max-width:1100px) {
+
+	/* header */
+	.main-content{
+		flex-direction: column;
+	}
+
+    .main-content .left-box {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin-top: 2rem;
+    }
+
+    .wrapper .card-content  {
+        margin: 1rem;
+    }
+
+    .subscribe-btn {
+        padding: 0.8rem.5rem;
+        border-radius: 4rem;
+        color: #fff;
+        font-size: .6rem;        
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+
+    /* header */
+	.main-content{
+		flex-direction: column;
+	}
+
+    .main-content .left-box {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin-top: 2rem;
+    }
+
+    .wrapper .card-content  {
+        margin: 1rem;
+    }
+
+    .subscribe-btn {
+        padding: 0.8rem.5rem;
+        border-radius: 4rem;
+        color: #fff;
+        font-size: .6rem;        
+    }
+
+}

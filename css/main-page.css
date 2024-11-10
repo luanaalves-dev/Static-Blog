@@ -165,8 +165,23 @@ h1 {
     color: #8dc63f;
 }
 
+/* responsividade */
+@media (max-width:1100px) {
+    .banner-image {
+		width: 100%;
+}
 
+h1 {
+    color: #f3f6ef;
+    font-size: 2rem;
     
+}
+
+.post-card_title {
+    font-size: 1.2rem;
+}
+
+}
     
 
 
