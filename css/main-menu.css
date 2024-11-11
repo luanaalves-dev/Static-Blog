@@ -43,12 +43,11 @@
 
 .banner-image {
     background-image: url("/img/banner-export.jpeg");
-	background-size:contain;
-	background-repeat: no-repeat;
-	overflow: auto;
-	width: 100vw;
-    height: 57vh;
+	background-size: contain;
+    background-repeat: no-repeat;
+	height: 58vh;
 }
+
 
 .social-nav a i {
 	background-color: #fff;
@@ -78,21 +77,28 @@
 	.navbar-container{
 		flex-wrap: wrap;
 		flex-direction: column;
-		margin-top: 0.5rem;
+		justify-content: center;
+		align-items: center;
 	}
 
+	
 	.btn {
 		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
 		padding:6px 6px;
-		font-size:8px;
+		font-size:1rem;
 		font-weight: bold;
 		border-radius: 0.5rem
     }
 
-	.banner-image {
-		height: 14vh;
-		margin-top:0;
-	}
+	.navbar-container .logo {
+			left:5rem;
+			transform: translate( -1%);	
+		}
+
+
+		
 
 	.social-nav a i {
 		display: none;
@@ -106,25 +112,40 @@
 	/* header */
 	.navbar-container{
 		flex-wrap: wrap;
-		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
+
+	.btn {
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		padding:6px 6px;
+		font-size:0.5rem;
+		font-weight: bold;
+		border-radius: 0.5rem
+    }
 	
 	.banner-image {
-		height: 14vh;
-	
+		height: 13vh;
 	}	
 
 	.navbar-container .logo {
 		display: flex;
-		justify-content: center;
-		align-items: center;
-		width: 20vw;
+        left:10rem;
+		width: 22vw;
 	    height: 10vh;
-		
+		transform: translate(1%, -40%);		
 	}
 
 	.social-nav a i {
 		display: none;
+	}
+
+	h1 {
+		font-size: 1.5rem;
+		margin-top: 1.5rem;
+		padding-bottom: 1rem;  
 	}
 		
 

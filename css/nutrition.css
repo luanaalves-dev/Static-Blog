@@ -13,7 +13,6 @@
     background-size: cover;
     height: 37.4vh;
     width: 100%;
-
 }
 
 main {
@@ -44,7 +43,7 @@ h1 {
      font-size: 2rem;
      color: #fff;
      margin-top: 1rem;
-     margin-left: 4.1rem;
+     margin-left: 3rem;
 }
 
 .article-container {
@@ -59,16 +58,15 @@ h1 {
 
 .featured-image img{
   object-fit: cover;
-  width: 80%;
-  height: 55vh ;
+  width: 60vw;
+  height: 45vh ;
   border-radius: 0.8rem;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);   
-  margin-top: 2rem;
-  margin-left: 4rem;
+  margin-left: 3rem;
 }
 
 .article-container-meal {
-    display: flex;
+    display:flex;
     background-color: #b0c4b1;
     border-radius: 1rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
@@ -77,14 +75,12 @@ h1 {
 }
 
 .image-meal img {
-    object-fit: cover;
-    width: 65vh;
-    height: 50vh;
+    object-fit: contain;
+    width: 40vw;
     border-radius: 0.8rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
     margin-top: 3.5rem; 
     margin-left: 2rem; 
-
 }
 
 .article-container-hydration {
@@ -98,9 +94,8 @@ h1 {
 }
 
 .image-hydration img {
-    object-fit: cover;
-    width: 60vh;
-    height: 42vh;
+    object-fit: contain;
+    width: 35vw;
     border-radius: 0.8rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);   
     margin-top: 3.5rem;
@@ -120,7 +115,6 @@ h3 {
     padding: 0 0 1rem;
     padding-left: 4rem;
     margin-top: 2rem;
-
 }
 
 .article-paragraph p {
@@ -136,7 +130,7 @@ h3 {
    word-break: break-word;
 }
 
- li {
+li {
     display: list-item;
     padding: 0.5rem;
     font-size: 1.3rem;
@@ -148,3 +142,172 @@ h3 {
     font-weight: bold;
     color: #fff;
 }
+
+
+@media screen and (max-width:1100px) {
+    .navbar-container .logo {
+        left:5rem;
+		transform: translate( -1%);	
+	}
+    
+    .navbar-container{
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+    .banner-article {
+        height: 22vh;  
+    }
+
+    .btn {
+		flex-wrap: wrap;
+		padding:8px 8px;
+		font-size: 1rem;
+		font-weight: bold;
+		border-radius: 0.5rem
+    }
+
+    .article-container {
+        display: flex;
+        flex-flow: row wrap;
+        gap:1rem;
+    }
+
+    .article-paragraph p {
+        display: flex;
+        margin: 0.5rem 0;
+        font-size: 1.2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        letter-spacing: normal;
+    }
+
+    h1 {
+        font-size: 2rem;
+        margin-left: 1rem;
+   }
+
+    .article-paragraph h2 {
+        padding-left: 1rem;
+    }
+
+    h3 {
+        padding-left: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .article-container-meal {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 1rem;
+    }
+    
+    .image-meal img { 
+        margin-left: 1rem;
+        width: 60vw;
+    }
+
+    li {
+        font-size: 1.2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .article-container-hydration {
+        display: flex;
+        flex-flow: row wrap;
+        padding: 1rem;
+    }
+
+    .image-hydration img {
+        width: 60vh;  
+        margin-top: 2rem;
+        margin-left: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+   
+
+    .btn {
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		padding:6px 6px;
+		font-size:0.5rem;
+		font-weight: bold;
+		border-radius: 0.5rem
+    }
+
+    .navbar-container .logo {
+		display: flex;
+        left:10rem;
+		width: 22vw;
+	    height: 10vh;
+		transform: translate(1%, -40%);	
+	}
+
+    .banner-article {
+        height: 8.5vh;
+        width: 96.5vw;
+    }
+
+    .featured-image img {
+        padding: 0;
+        width: 58vw;
+        height: 25vh;   
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        padding-left: 0.2rem;
+    }
+
+    h1 {
+        font-size: 1.3rem;
+        margin-left: 0;
+    }
+    .article-paragraph h2 {
+        margin-top: 0.5rem;
+        font-size: 1.2rem;
+        padding-left: 0.2rem;
+    }
+
+    .image-meal img {
+        width: 60vw;
+        height: 25vh;
+        margin-top: 2rem; 
+        margin-left: 1rem; 
+    }
+
+    li {
+        font-size: 1.1rem;
+        padding-left: 0.4rem;
+        padding-right: 0.4rem;
+    }
+
+    .article-paragraph p {
+        font-size: 1.1rem;
+        letter-spacing: normal;
+        text-align:start;
+        word-break: normal;
+        display: table;
+     }    
+     .image-hydration img {
+        width: 55vw;
+        height: 25vh;  
+        margin-top: 2rem;
+        text-align:center;
+    }    
+    article {
+        display: flex;
+        justify-content: center;
+        gap: 5rem;
+    }
+}
+
+    
+
+

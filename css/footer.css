@@ -194,6 +194,8 @@ form { max-width:350px;
 @media (max-width: 480px) {
 
     /* header */
+
+    
 	.main-content{
 		flex-direction: column;
 	}
