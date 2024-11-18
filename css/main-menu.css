@@ -46,7 +46,8 @@
 	background-size: contain;
     background-repeat: no-repeat;
 	text-align: center;
-	height: 54vh;
+	height: 58vh;
+	max-height: 58vh;
 }
 
 
