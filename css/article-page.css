@@ -17,10 +17,10 @@
 
 main {
     background-image: url(../img/kit-training.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 3rem;  
-    width: 100%;   
+    
 }
 
 .article-main {
@@ -200,9 +200,9 @@ h1 {
         display: flex;
         margin: 0.5rem 0;
         font-size: 1rem;
-        padding-left: 0.5rem;
-        padding-right: 1rem;
-        letter-spacing: normal
+        letter-spacing: normal;
+        line-height: normal;
+      
     }
 
     .article-main {

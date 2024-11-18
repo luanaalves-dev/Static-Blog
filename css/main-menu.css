@@ -45,7 +45,8 @@
     background-image: url("/img/banner-export.jpeg");
 	background-size: contain;
     background-repeat: no-repeat;
-	height: 58vh;
+	text-align: center;
+	height: 54vh;
 }
 
 
@@ -93,12 +94,13 @@
     }
 
 	.navbar-container .logo {
-			left:5rem;
-			transform: translate( -1%);	
-		}
+		left:5rem;
+		transform: translate( -1%);	
+	}
 
-
-		
+	.banner-image {
+		height: 32.5vh;
+	}	
 
 	.social-nav a i {
 		display: none;

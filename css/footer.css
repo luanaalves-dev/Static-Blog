@@ -29,11 +29,12 @@ footer {
 .left-box h3 {
     font-size: 1rem;
     color: #fff;
-    margin-top: 1rem;
     padding-right: 1rem 0;
 }
 
 .social h3 {
+    display: flex;
+    justify-content: left;
     color: #314a76;
     margin-bottom: 0.5rem;
 }
@@ -188,6 +189,8 @@ form { max-width:350px;
         color: #fff;
         font-size: .6rem;        
     }
+
+
 }
 
 /* Mobile */
@@ -203,7 +206,7 @@ form { max-width:350px;
     .main-content .left-box {
         display: flex;
         flex-direction: column;
-        padding: 0;
+        justify-content: center;
         margin-top: 2rem;
     }
 
@@ -216,6 +219,12 @@ form { max-width:350px;
         border-radius: 4rem;
         color: #fff;
         font-size: .6rem;        
+    }
+
+    .left-box img {
+        width: 180px;
+        object-fit: contain;
+        margin-bottom: 2rem;
     }
 
 }
