@@ -83,8 +83,6 @@ h1 {
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
     margin-top: 3rem;  
     margin-left: 3rem;
-    
-    
 }
 
 .article-container-aquafit {
@@ -144,4 +142,114 @@ h3 {
     margin-left: 4em;
     padding: 0.5rem;
     font-size: 1.3rem;
+}
+
+
+@media (max-width: 480px) {
+   
+    .btn {
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		padding:6px 6px;
+		font-size:0.5rem;
+		font-weight: bold;
+		border-radius: 0.5rem
+    }
+
+    .navbar-container .logo {
+		display: flex;
+        left:10rem;
+		width: 22vw;
+	    height: 10vh;
+		transform: translate(1%, -40%);	
+	}
+
+    .banner-article {
+        height: 8.5vh;
+    }
+
+    .article-main {
+        width: 100%;
+        gap: 1rem;
+        margin-top: 0.5rem;
+        border-radius: 1rem;
+    }
+
+    .article-container-aerobics {
+        padding: 2rem;
+        gap: 1rem; 
+        margin-top: 0.5rem;
+        border-radius: 1rem;
+    }
+    .article-container-aquatic {
+        display: flex;
+        flex-direction: column;
+        border-radius: 1rem;
+
+        padding: 2.5rem;
+        gap: 2rem;
+    }
+
+    .featured-image img {
+        width: 58vw;
+        height: 25vh;  
+        margin-left: 1rem; 
+    }
+
+    .article-paragraph h3 {
+        font-size: 1.3rem;
+        padding-left: 1rem;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        margin-left: 0;
+    }
+
+    .image-aquatic img {
+        object-fit: cover;
+        width: 25vh;
+        border-radius: 0.8rem;
+        box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
+        margin-top: 1rem;  
+        margin-left: 0rem;
+    }
+    
+    .article-paragraph h2 {
+        margin-top: 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    .image-meal img {
+        width: 60vw;
+        margin-top: 1.5rem; 
+        padding: 0;
+        text-align: center;
+    }
+
+    .article-paragraph ul li {
+        font-size: 1.1rem;
+        text-align: left;
+        margin-left: 1rem;
+        font-size: 1.1rem;
+    }
+
+    .article-paragraph p {
+        display: flex;
+        flex-direction: column;
+        margin: 0.5rem 0;
+        font-size: 1.1rem;
+        padding-left: 0.4rem;
+        padding-right: 0.4rem;
+        letter-spacing: normal
+     }  
+       
+     .image-hydration img {
+        width: 55vw;  
+        margin-top: 2rem;
+        text-align:center;
+    }    
+    
+    
 }

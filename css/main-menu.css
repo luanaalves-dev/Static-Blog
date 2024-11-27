@@ -6,9 +6,8 @@
 .navbar-container {
 	display: flex;	
 	justify-content:center;
-	padding: 2.5rem;
-	margin-top: 1rem;
-
+	padding: 3rem;
+	border-bottom: 2px solid #8bc53f;
 }
 
 .btn{
@@ -46,8 +45,8 @@
 	background-size: contain;
     background-repeat: no-repeat;
 	text-align: center;
-	height: 58vh;
-	max-height: 58vh;
+	width: 100vw;
+	height: 57vh;
 }
 
 
@@ -117,6 +116,9 @@
 		flex-wrap: wrap;
 		justify-content: center;
 		align-items: center;
+		margin-top: 1rem;
+		padding: 2rem;
+		border-bottom: 1px solid #8bc53f;
 	}
 
 	.btn {
@@ -130,7 +132,7 @@
     }
 	
 	.banner-image {
-		height: 13vh;
+		height: 12.3vh;
 	}	
 
 	.navbar-container .logo {
