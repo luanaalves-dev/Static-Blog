@@ -52,13 +52,20 @@
   .subscribe-btn {
     padding: .8rem 2rem;
     border-radius: 5rem;
-    background: linear-gradient(90deg, #8dc63f, #9b9a9a);
+    background:  #8dc63f;
+    opacity: 0.9;
     color: #fff;
     font-size: .7rem;
     border: none;
     outline: none;
     cursor: pointer;
   }
+
+  .subscribe-btn:hover {
+    opacity: 1;
+    color: #fff;
+  }
+
 
 
   @media (max-width: 1100px) {

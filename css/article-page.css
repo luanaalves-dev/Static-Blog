@@ -28,7 +28,7 @@ main {
     flex-direction:column;
     width: 90%;
     padding: 2rem;
-    gap: 3rem;
+    gap: 2rem;
     margin-top: 3rem;
     border-radius: 1.5rem;
 }
@@ -137,12 +137,12 @@ h1 {
         height: 42vh ;
         border-radius: 0.5rem;  
         margin: 1rem;
-        margin-top: 2rem;
+        margin-top: 1.5rem;
     }
 
     .article-text h1 { 
         font-size: 1.5rem;
-        padding-left: 0.5rem;   
+        padding-left: 0.4rem;   
     }
 
     .article-text p {
@@ -165,7 +165,7 @@ h1 {
         width: 60vw;
         height: 25vh ;
         border-radius: 0.5rem;  
-        margin-top: 2rem;
+        margin-top: 1rem;
     }
 
     .btn {
@@ -201,8 +201,8 @@ h1 {
         margin: 0.5rem 0;
         font-size: 1rem;
         letter-spacing: normal;
-        line-height: normal;
-      
+        word-spacing: 5px;
+        text-align: left;
     }
 
     .article-main {

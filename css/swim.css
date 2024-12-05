@@ -186,7 +186,6 @@ h3 {
         display: flex;
         flex-direction: column;
         border-radius: 1rem;
-
         padding: 2.5rem;
         gap: 2rem;
     }
@@ -199,7 +198,7 @@ h3 {
 
     .article-paragraph h3 {
         font-size: 1.3rem;
-        padding-left: 1rem;
+        padding-left: 0.4rem;
     }
 
     h1 {
@@ -213,7 +212,7 @@ h3 {
         border-radius: 0.8rem;
         box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
         margin-top: 1rem;  
-        margin-left: 0rem;
+        margin-left: 1rem;
     }
     
     .article-paragraph h2 {
@@ -221,17 +220,24 @@ h3 {
         font-size: 1.3rem;
     }
 
-    .image-meal img {
+    main img {
         width: 60vw;
         margin-top: 1.5rem; 
         padding: 0;
         text-align: center;
     }
 
+    .image-aquafit img {
+        width: 58vw;
+        height: 25vh;
+        margin-left: 1rem;   
+        margin-top: 1.5rem;
+    }
+
     .article-paragraph ul li {
         font-size: 1.1rem;
         text-align: left;
-        margin-left: 1rem;
+        margin-left: 1.8rem;
         font-size: 1.1rem;
     }
 
@@ -242,14 +248,12 @@ h3 {
         font-size: 1.1rem;
         padding-left: 0.4rem;
         padding-right: 0.4rem;
-        letter-spacing: normal
+        word-spacing: 2px;
+        text-align: left;
+        
      }  
        
-     .image-hydration img {
-        width: 55vw;  
-        margin-top: 2rem;
-        text-align:center;
-    }    
+        
     
     
 }
