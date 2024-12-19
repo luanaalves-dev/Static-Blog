@@ -211,8 +211,8 @@ li {
 
     li {
         font-size: 1.2rem;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     .article-container-hydration {
@@ -272,7 +272,6 @@ li {
 
     .article-paragraph h3 {
         font-size: 1.3rem;
-        padding-left: 1rem;
     }
 
     h1 {
@@ -288,7 +287,7 @@ li {
         width: 60vw;
         margin-top: 1.5rem; 
         padding: 0;
-        text-align: center;
+        margin-left: 2rem;
     }
 
     li {
@@ -300,12 +299,16 @@ li {
         letter-spacing: normal;
         text-align:start;
         word-break: normal;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
         display: table;
      }    
+
      .image-hydration img {
-        width: 55vw;  
+        width: 60vw;  
         margin-top: 2rem;
         text-align:center;
+        margin-left: 2rem;
     }    
     
     

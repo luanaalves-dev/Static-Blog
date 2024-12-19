@@ -161,7 +161,6 @@ h3 {
 
 @media (max-width: 480px) {
    
-
     .btn {
 		flex-wrap: wrap;
 		justify-content: center;
@@ -201,11 +200,10 @@ h3 {
     .article-text p {
         display: flex;
         flex-direction: column;
-        margin: 0.5rem 0;
+        letter-spacing: normal;
+        text-align:start;
+        word-break: normal;
         font-size: 1rem;
-        padding-left: 0.5rem;
-        padding-right: 1rem;
-        letter-spacing: normal
     }
 
     .article-container {
@@ -218,14 +216,12 @@ h3 {
     }
 
     h1 {
-        padding-left: 0rem;
         font-size: 1.3rem;
         margin-top: 0;
     }
 
     .article-text h2 {
-        padding-bottom: 1rem;
-        padding-left: 0rem;
+        padding-bottom: 0.5rem;
         font-size: 1.2;
     }
 
