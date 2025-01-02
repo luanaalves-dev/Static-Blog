@@ -94,3 +94,139 @@ h3 {
    font-weight: bold;
    color: #000000;
 }
+
+/* responsividade */
+
+@media screen and (max-width:1100px) {
+
+    .navbar-container .logo {
+        left:5rem;
+		transform: translate( -1%);	
+	}
+    
+    .navbar-container{
+		flex-wrap: wrap;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+    .btn {
+		flex-wrap: wrap;
+		padding:8px 8px;
+		font-size:0.8rem;
+		font-weight: bold;
+		border-radius: 0.5rem
+    }
+
+    .banner-article {
+      height: 22vh;  
+    }
+
+    main {
+        width: 100vw;   
+    }
+
+    .article-main {
+        padding: 1rem;
+        border-radius: 1.5rem;
+    }
+    
+
+    .article-container {
+        display: flex;
+        flex-flow: row wrap;
+        gap:1rem;
+    }
+
+    .featured-image img{
+        width: 60vw;
+        height: 42vh ;
+        border-radius: 0.5rem;  
+        margin: 1rem;
+        margin-top: 1.5rem;
+    }
+
+    .article-text h1 { 
+        font-size: 1.5rem;
+        padding-left: 0.4rem;   
+    }
+
+    .article-text p {
+        display: flex;
+        margin: 0.5rem 0;
+        font-size: 1rem;
+        padding-left: 0.4rem;
+        padding-right: 0.4rem;
+        letter-spacing: normal
+    }
+    .article-text h2 {
+        font-size: 1.5rem;
+        margin-top: 2rem;
+        padding-left: 0.5rem
+    }
+}
+
+@media (max-width: 480px) {
+    .featured-image img{
+        width: 60vw;
+        height: 25vh ;
+        border-radius: 0.5rem;  
+        margin-top: 1rem;
+    }
+
+    .btn {
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		padding:6px 6px;
+		font-size:0.5rem;
+		font-weight: bold;
+		border-radius: 0.5rem
+    }
+
+    .navbar-container .logo {
+		display: flex;
+        left:10rem;
+		width: 22vw;
+	    height: 10vh;
+		transform: translate(1%, -40%);	
+	}
+
+    .banner-article {
+        height: 8.5vh;  
+      }
+
+      .article-text h2 {
+        font-size: 1rem;
+        margin-top: 1rem;
+        padding-left: 0.5rem
+    }
+
+    h3 {
+        color: #000000;
+        font-size: 1rem;
+        padding-left: 0.5rem;
+    }
+    
+
+    .article-text p {
+        display: flex;
+        margin: 0.5rem 0;
+        font-size: 1rem;
+        letter-spacing: normal;
+        word-spacing: 5px;
+        text-align: left;
+    }
+
+    .article-text .bold {
+        display:contents;
+        font-size: 1rem; 
+    }
+
+    .article-main {
+        padding: 0.5rem;
+        border-radius: 1rem;
+    }
+}
+
