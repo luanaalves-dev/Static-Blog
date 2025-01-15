@@ -25,7 +25,7 @@ main {
 .article-main {
     display: flex;
     flex-direction:column;
-    width: 90%;
+    width: 70%;
     padding: 2rem;
     gap: 3rem;
     margin-top: 3rem;
@@ -35,7 +35,7 @@ main {
 article {
     display: flex;
     justify-content: center;
-    gap: 5rem;
+    gap: 3rem;
 }
 
 h1 {
@@ -43,7 +43,7 @@ h1 {
      font-size: 2rem;
      color: #fff;
      margin-top: 1rem;
-     margin-left: 3rem;
+     margin-left: 1rem;
 }
 
 .article-container {
@@ -52,17 +52,17 @@ h1 {
     background-color: #b0c4b1;
     border-radius: 1rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
-    padding: 2rem;
+    padding: 4rem;
     gap:2rem;
 }
 
 .featured-image img{
   object-fit: cover;
-  width: 60vw;
+  width: 50vw;
   height: 45vh ;
   border-radius: 0.8rem;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);   
-  margin-left: 3rem;
+  margin-left: 1rem;
 }
 
 .article-container-meal {
@@ -70,13 +70,14 @@ h1 {
     background-color: #b0c4b1;
     border-radius: 1rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
-    padding: 2rem;
+    padding: 2rem 2rem;
+    padding-bottom: 4rem;
     gap: 1rem;
 }
 
 .image-meal img {
     object-fit: contain;
-    width: 40vw;
+    width: 30vw;
     border-radius: 0.8rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
     margin-top: 3.5rem; 
@@ -95,11 +96,18 @@ h1 {
 
 .image-hydration img {
     object-fit: contain;
-    width: 35vw;
+    width: 30vw;
     border-radius: 0.8rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);   
-    margin-top: 3.5rem;
-    margin-left: 4rem;
+    margin-top: 3rem;
+    margin-left: 1rem;
+}
+
+.article-paragraph h2 {
+    color: #fff;
+    padding: 0 0 1rem;
+    padding-left: 1.5rem;
+    margin-top: 2rem;
 }
 
 .article-paragraph h3 {
@@ -107,14 +115,7 @@ h1 {
     padding: 0 0 1rem;
     margin-top: 2rem;
     font-size: 1.5rem;
-    padding-left: 4rem;
-}
- 
-.article-paragraph h2 {
-    color: #fff;
-    padding: 0 0 1rem;
-    padding-left: 4rem;
-    margin-top: 2rem;
+    padding-left: 1.6rem;
 }
 
 .article-paragraph p {
@@ -123,8 +124,8 @@ h1 {
    font-size: 1.3rem;
    line-height: 1.5;
    letter-spacing: 1px;
-   padding-left: 4rem;
-   padding-right: 4rem;
+   padding-left: 2rem;
+   padding-right: 2rem;
    text-align: justify;
    display: table;
    word-break: break-word;
@@ -134,8 +135,8 @@ li {
     display: list-item;
     padding: 0.5rem;
     font-size: 1.3rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .bold {
@@ -258,16 +259,24 @@ li {
         flex-direction: column;
         justify-content: center;
         width: 100vw;
-        padding: 2rem;
+        padding: 1.5rem;
         gap: 1rem; 
         margin-top: 1rem;
         border-radius: 1.5rem;
     }
 
+    .article-container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     padding: 1rem;
+ }
+
     .featured-image img {
-        width: 58vw;
-        height: 25vh;  
-        margin-left: 1rem; 
+        width: 70vw;
+        height: 28vh;  
+        margin-right: 1rem;
     }
 
     .article-paragraph h3 {
@@ -276,18 +285,20 @@ li {
 
     h1 {
         font-size: 1.4rem;
-        margin-left: 0;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
     .article-paragraph h2 {
         margin-top: 0.5rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
         font-size: 1.3rem;
     }
 
     .image-meal img {
-        width: 60vw;
+        width: 70vw;
         margin-top: 1.5rem; 
         padding: 0;
-        margin-left: 2rem;
     }
 
     li {
@@ -305,10 +316,9 @@ li {
      }    
 
      .image-hydration img {
-        width: 60vw;  
+        width: 70vw;  
         margin-top: 2rem;
         text-align:center;
-        margin-left: 2rem;
     }    
     
     
