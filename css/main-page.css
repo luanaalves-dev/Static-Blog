@@ -1,5 +1,5 @@
 
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
@@ -13,6 +13,7 @@ article {
     background-color: #314a76;
     opacity: 0.9;
     padding-top:2rem;
+    padding-bottom: 2rem;
 }
 
 h1 {
@@ -21,7 +22,6 @@ h1 {
     font-style: italic;
     text-align: center;
     margin-top: 2rem;
-    padding-bottom: 1.5rem;  
 }
 
 .container-wrapper {
@@ -29,9 +29,10 @@ h1 {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    padding: 0.5rem;
+    padding-top: 5rem;
     padding-bottom: 5rem;
-    gap: 2rem;
+    max-width: 2000px;
+    gap: 3rem;
 }
 
 .post-card {

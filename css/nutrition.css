@@ -30,6 +30,7 @@ main {
     gap: 3rem;
     margin-top: 3rem;
     border-radius: 1.5rem;
+    padding-bottom: 5rem;
 }
 
 article {
@@ -52,14 +53,14 @@ h1 {
     background-color: #b0c4b1;
     border-radius: 1rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
-    padding: 4rem;
+    padding: 3rem;
     gap:2rem;
 }
 
 .featured-image img{
   object-fit: cover;
-  width: 50vw;
-  height: 45vh ;
+  width: 45vw;
+  height: 35vh ;
   border-radius: 0.8rem;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);   
   margin-left: 1rem;
@@ -77,10 +78,10 @@ h1 {
 
 .image-meal img {
     object-fit: contain;
-    width: 30vw;
+    width: 25vw;
     border-radius: 0.8rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
-    margin-top: 3.5rem; 
+    margin-top: 2rem; 
     margin-left: 2rem; 
 }
 
@@ -91,12 +92,13 @@ h1 {
     border-radius: 1rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
     padding: 2rem;
+    padding-bottom: 5rem;
     gap:1rem;
 }
 
 .image-hydration img {
     object-fit: contain;
-    width: 30vw;
+    width: 24vw;
     border-radius: 0.8rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);   
     margin-top: 3rem;

@@ -26,7 +26,7 @@ main {
 .article-main {
     display: flex;
     flex-direction:column;
-    width: 90%;
+    width: 70%;
     padding: 2rem;
     gap: 3rem;
     margin-top: 3rem;
@@ -45,31 +45,34 @@ article {
     background-color: #d5bdaf;
     border-radius: 1rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
-    padding: 2.5rem;
+    padding: 2rem;
+    padding-bottom: 3rem;
     padding-top:5rem;
     gap:2rem;
 }
 
 h1 {
-  padding-left: 2rem;
-  font-size: 2rem;
+  padding-left: 0.5rem;
+  font-size: 1.7rem;
+  padding-bottom: 2rem;
   color: #fff;
 }
 
 .featured-image img{
   object-fit: cover;
-  width: 60vh;
-  height: 45vh ;
+  width: 55vh;
+  height: 35vh ;
   border-radius: 0.8rem;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);   
-  margin: 2rem;
+  margin: 0.5rem;
 }
 
 h3 {
     color: #fff;
     padding: 0 0 0.5rem;
+    padding-bottom: 2rem;
     margin-bottom: 0.5rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 
 .article-text p {
@@ -77,9 +80,8 @@ h3 {
     margin: 0.5rem 0;
     font-size: 1.3rem;
     line-height: 1.5;
-    letter-spacing: 1px;
-    padding-left: 2rem;
-    padding-right: 3rem;
+    padding-left: 0.5rem;
+    padding-right: 1rem;
     text-align: justify;
     display: table;
     word-break: break-word;
@@ -87,8 +89,9 @@ h3 {
 
 .article-text h2 {
     color: #fff;
+    font-size: 1.5rem;
     padding-bottom: 2rem;
-    padding-left: 2rem;
+    padding-left: 0.5rem;
 }
 
 .article-text .bold {
@@ -115,6 +118,15 @@ h3 {
         background-repeat: no-repeat;
         height: 22.4vh;
     }
+
+    .featured-image img{
+        object-fit: cover;
+        width: 45vh;
+        height: 30vh ;   
+        margin-top: 2rem;
+        margin-right: 7rem;
+        margin-bottom: 1rem;
+      }
 
     .article-text p {
         display: flex;
@@ -190,20 +202,32 @@ h3 {
         border-radius: 1rem;
     }
 
+    .article-main {
+        width: 100%;
+        padding: 2rem;
+        gap: 2rem;
+        margin-top: 1rem;
+
+    }
+
     .featured-image img{
-        width: 60vw;
-        height: 24vh;  
-        margin-left: 1rem; 
+        width: 65vw;
+        height: 28vh;  
+        margin-left: 0rem; 
+        margin-top: 1rem;;   
+        margin-right: 1.5rem;
+        margin-bottom: 1rem;
     }
 
 
     .article-text p {
         display: flex;
         flex-direction: column;
-        letter-spacing: normal;
         text-align:start;
         word-break: normal;
         font-size: 1rem;
+        padding-left: 0.2rem;
+        padding-right: 0.4rem;
     }
 
     .article-container {
@@ -218,19 +242,21 @@ h3 {
     h1 {
         font-size: 1.3rem;
         margin-top: 0;
+        padding-left: 0.2rem;
+        padding-bottom: 1rem;
     }
 
     .article-text h2 {
-        padding-bottom: 0.5rem;
-        font-size: 1.2;
+        padding-bottom: 1rem;
+        font-size: 1.2rem;
+        padding-left: 0.2rem;
     }
 
     h3 {
         color: #fff;
         padding: 0 0 0.5rem;
-        margin-bottom: 0.5rem;
+        margin-bottom: 1rem;
         font-size: 1.2rem;
-        
     }
 
     .article-text .bold {

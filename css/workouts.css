@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif ;
@@ -26,9 +26,9 @@ main {
 .article-main {
     display: flex;
     flex-direction:column;
-    width: 90%;
+    width: 70%;
     padding: 2rem;
-    gap: 3rem;
+    gap: 2rem;
     margin-top: 3rem;
     border-radius: 1.5rem;
 }
@@ -49,8 +49,9 @@ article {
     padding-top: 3.5rem;
     gap:1rem;
 }
+
  h1 {
-   padding-left: 2rem;
+   padding-left: 1rem;
    margin-bottom: 1rem;
    font-size: 1.8rem;
    color: #000000;
@@ -58,17 +59,17 @@ article {
 
 .featured-image img{
    object-fit: cover;
-   width: 60vh;
+   width: 55vh;
    height: 40vh;
    border-radius: 0.8rem;
    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);   
-   margin: 2rem;
+   margin: 0.5rem;
 }
 
 h3 {
     color: #000000;
     font-size: 1.5rem;
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 
 .article-text p {
@@ -77,8 +78,8 @@ h3 {
    font-size: 1.3rem;
    line-height: 1.5;
    letter-spacing: 1px;
-   padding-left: 2rem;
-   padding-right: 3rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
    text-align: justify;
    display: table;
    word-break: break-word;
@@ -87,7 +88,7 @@ h3 {
 .article-text h2 {
     color: #000000;
     padding-bottom: 2rem;
-    padding-left: 2rem;
+    padding-left: 1rem;
 }
 
 .article-text .bold {
@@ -141,7 +142,7 @@ h3 {
 
     .featured-image img{
         width: 60vw;
-        height: 42vh ;
+        height: 40vh ;
         border-radius: 0.5rem;  
         margin: 1rem;
         margin-top: 1.5rem;
@@ -168,11 +169,29 @@ h3 {
 }
 
 @media (max-width: 480px) {
-    .featured-image img{
-        width: 60vw;
-        height: 25vh ;
-        border-radius: 0.5rem;  
-        margin-top: 1rem;
+
+    .article-main {
+        width: 90%;
+        padding: 0.5rem;
+        gap:1rem;
+        margin-top: 1.5rem;
+        border-radius: 1rem;
+    }
+
+    .article-container {
+       
+        padding: 1rem;
+        padding-top: 1.5rem;
+        gap: 1rem;
+    }
+
+
+    .featured-image img {
+        width: 68vw;
+        height: 26vh;
+        margin-right: 1rem;
+        border-radius: 0.5rem;
+        margin-top: 0.5rem;
     }
 
     .btn {
@@ -196,37 +215,46 @@ h3 {
     .banner-article {
         height: 8.5vh;  
       }
-
+    
+    h1 {
+        padding-left: 0rem;
+        margin-bottom: 0.5rem;
+        font-size: 1.3rem;
+    }
+    
       .article-text h2 {
-        font-size: 1rem;
-        margin-top: 1rem;
-        padding-left: 0.5rem
+        font-size: 1.2rem;
+        margin-top: 0.7rem;
+        padding-left: 0.5rem;
     }
 
     h3 {
         color: #000000;
-        font-size: 1rem;
-        padding-left: 0.5rem;
+        font-size: 1.2rem;
+        padding-left: 0;
     }
     
-
     .article-text p {
         display: flex;
-        margin: 0.5rem 0;
-        font-size: 1rem;
+        margin:  0;
+        font-size: 1.1rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
         letter-spacing: normal;
-        word-spacing: 5px;
+        word-spacing: 0;
         text-align: left;
     }
 
     .article-text .bold {
         display:contents;
-        font-size: 1rem; 
+        font-size: 1.1rem; 
     }
 
     .article-main {
         padding: 0.5rem;
         border-radius: 1rem;
     }
-}
+
+};
+
 

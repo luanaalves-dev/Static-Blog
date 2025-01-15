@@ -48,7 +48,7 @@ article {
   gap: 2rem;
 }
 
-h1 {
+.article-text h1 {
   padding-left: 2rem;
   font-size: 1.7rem;
   color: #fff;
@@ -102,6 +102,14 @@ h1 {
     align-items: center;
   }
 
+  .article-main {
+    width: 90%;
+    padding: 1rem;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+
   .btn {
     flex-wrap: wrap;
     padding: 8px 8px;
@@ -111,7 +119,7 @@ h1 {
   }
 
   .banner-article {
-    height: 22vh;
+    height: 20vh;
   }
 
   main {
