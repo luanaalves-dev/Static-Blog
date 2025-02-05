@@ -42,7 +42,7 @@ article {
 h1 {
      padding: 0.5rem;
      font-size: 2rem;
-     color: #fff;
+     color: #171616;
      margin-top: 1rem;
      margin-left: 1rem;
 }
@@ -50,7 +50,7 @@ h1 {
 .article-container {
     display: flex;
     flex-direction: column;
-    background-color: #b0c4b1;
+    background-color: #FFFFFF;
     border-radius: 1rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
     padding: 3rem;
@@ -59,16 +59,16 @@ h1 {
 
 .featured-image img{
   object-fit: cover;
-  width: 45vw;
-  height: 35vh ;
+  width: 60vw;
+  height: 40vh ;
   border-radius: 0.8rem;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);   
-  margin-left: 1rem;
+  margin-left: 0.5rem;
 }
 
 .article-container-meal {
     display:flex;
-    background-color: #b0c4b1;
+    background-color: #FFFFFF;
     border-radius: 1rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
     padding: 2rem 2rem;
@@ -78,17 +78,17 @@ h1 {
 
 .image-meal img {
     object-fit: contain;
-    width: 25vw;
+    width: 28vw;
     border-radius: 0.8rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
-    margin-top: 2rem; 
-    margin-left: 2rem; 
+    margin-top: 3rem; 
+    margin: 1rem; 
 }
 
 .article-container-hydration {
     display: flex;
     flex-direction: row;
-    background-color: #b0c4b1;
+    background-color: #FFFFFF;
     border-radius: 1rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
     padding: 2rem;
@@ -101,23 +101,22 @@ h1 {
     width: 24vw;
     border-radius: 0.8rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);   
-    margin-top: 3rem;
-    margin-left: 1rem;
+    margin: 2rem;
+    margin-bottom: 10.5rem;
 }
 
 .article-paragraph h2 {
-    color: #fff;
+    color: #171616;
     padding: 0 0 1rem;
-    padding-left: 1.5rem;
-    margin-top: 2rem;
+    padding-left: 1rem;
+    margin-top: 1.5rem;
 }
 
 .article-paragraph h3 {
-    color: #fff;
-    padding: 0 0 1rem;
-    margin-top: 2rem;
+    color: #171616;
+    margin-top: 1rem;
     font-size: 1.5rem;
-    padding-left: 1.6rem;
+    padding-left: 1rem;
 }
 
 .article-paragraph p {
@@ -126,8 +125,8 @@ h1 {
    font-size: 1.3rem;
    line-height: 1.5;
    letter-spacing: 1px;
-   padding-left: 2rem;
-   padding-right: 2rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
    text-align: justify;
    display: table;
    word-break: break-word;
@@ -135,15 +134,16 @@ h1 {
 
 li {
     display: list-item;
-    padding: 0.5rem;
     font-size: 1.3rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
 }
 
 .bold {
     font-weight: bold;
-    color: #fff;
+    color: #171616;
 }
 
 
@@ -278,23 +278,26 @@ li {
     .featured-image img {
         width: 70vw;
         height: 28vh;  
-        margin-right: 1rem;
-    }
-
-    .article-paragraph h3 {
-        font-size: 1.3rem;
+        margin-right: 2rem;
     }
 
     h1 {
         font-size: 1.4rem;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
     }
-    .article-paragraph h2 {
-        margin-top: 0.5rem;
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+
+    .article-paragraph h3 {
         font-size: 1.3rem;
+        margin-top: 1rem;
+        padding-left: 0.5rem;
+        
+    }
+
+    
+    .article-paragraph h2 {
+        font-size: 1.3rem;
+        padding-left: 0.5rem;
+        margin-top: 0.5rem;
+        
     }
 
     .image-meal img {
@@ -305,6 +308,8 @@ li {
 
     li {
         font-size: 1.1rem;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
 
     .article-paragraph p {
@@ -321,6 +326,7 @@ li {
         width: 70vw;  
         margin-top: 2rem;
         text-align:center;
+        margin-bottom: 0.5rem;
     }    
     
     

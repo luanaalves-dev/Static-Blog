@@ -40,7 +40,7 @@ article {
 .article-container {
   display: flex;
   flex-direction: column;
-  background-color: #55809e;
+  background-color:  #FFFFFF;
   border-radius: 1rem;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
   padding: 2rem;
@@ -50,25 +50,26 @@ article {
 
 .article-text h1 {
   padding-left: 2rem;
-  font-size: 1.7rem;
-  color: #fff;
+  font-size: 2.2rem;
+  color: #171616;
 }
 
 .featured-image img {
   object-fit: cover;
-  width: 60vh;
-  height: 40vh;
+  width: 80vh;
+  height: 50vh;
   border-radius: 0.8rem;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
   margin: 1rem;
+  margin-left: 2rem;
   margin-top: 2rem;
 }
 
 .article-text p {
   padding: 0.5rem 0;
   margin: 0.5rem 0;
-  font-size: 1.3rem;
-  line-height: 1.5;
+  font-size: 1.6rem;
+  line-height: 1.9;
   letter-spacing: 1px;
   padding-left: 2rem;
   padding-right: 3rem;
@@ -79,8 +80,8 @@ article {
 }
 
 .article-text h2 {
-  font-size: 1.5rem;
-  color: #fff;
+  font-size: 1.8rem;
+  color: #171616;
   padding-left: 2rem;
 }
 

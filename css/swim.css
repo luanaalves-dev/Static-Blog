@@ -40,7 +40,7 @@ article {
 
 h1 {
      padding: 0.5rem;
-     margin-left: 1rem;
+     margin-left: 1.5rem;
      font-size: 2.2rem;
      font-weight: bold;
      color: #1b4965;
@@ -50,10 +50,11 @@ h1 {
 .article-container-aerobics {
     display: flex;
     flex-direction: column;
-    background-color: #90e0ef;
+    background-color: #FFFFFF;
     border-radius: 1rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
-    padding: 2rem;
+    padding: 2rem 2rem;
+    padding-bottom: 6rem;
     gap:2rem;
 }
 
@@ -61,18 +62,18 @@ h1 {
   object-fit: cover;
   width: 100vh;
   height: 50vh;
-  margin-left: 1.5rem;
+  margin-left: 2rem;
   border-radius: 0.8rem;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);   
-  margin-top: 2rem;
 }
 
 .article-container-aquatic {
     display: flex;
-    background-color: #90e0ef;
+    background-color: #FFFFFF;
     border-radius: 1rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
-    padding: 2rem;
+    padding: 2rem 2rem;
+    padding-bottom: 5rem;
     gap: 2rem;
 }
 
@@ -81,24 +82,25 @@ h1 {
     width: 60vh;
     border-radius: 0.8rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
-    margin-top: 1rem;  
+    margin-top: 3rem;  
     margin-left: 1rem;
 }
 
 .article-container-aquafit {
     display: flex;
     flex-direction: column;
-    background-color: #90e0ef;
+    background-color: #FFFFFF;
     border-radius: 1rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
-    padding: 2rem;
+    padding: 2rem 2rem;
+    padding-bottom: 5rem;
 }
 
 .image-aquafit img {
     object-fit: cover;
     width: 90vh;
     height: 45vh;
-    margin-left: 0.5rem;
+    margin-left: 2rem;
     border-radius: 0.8rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);   
     margin-top: 3rem;
@@ -109,7 +111,7 @@ h3 {
     padding: 0 0 1rem;
     margin-top: 2rem;
     font-size: 1.5rem;
-    padding-left: 0.5rem;
+    padding-left: 2rem;
 }
  
 .article-paragraph h2 {
@@ -124,9 +126,9 @@ h3 {
    margin: 0.5rem 0;
    font-size: 1.3rem;
    line-height: 1.5;
-   letter-spacing: 1px;
-   padding-left: 0.5rem;
-   padding-right: 0.5rem;
+   letter-spacing: 0px;
+   padding-left: 2rem;
+   padding-right: 2rem;
    text-align: justify;
    display: table;
    word-break: break-word;  
@@ -138,7 +140,7 @@ h3 {
 }
 
 .article-paragraph ul li {
-    margin-left: 4em;
+    margin-left: 4rem;
     padding: 0.5rem;
     font-size: 1.3rem;
 }

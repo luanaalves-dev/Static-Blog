@@ -25,10 +25,10 @@ main {
 .article-main {
     display: flex;
     flex-direction:column;
-    width: 90%;
+    width: 70%;
     padding: 2rem;
     gap: 3rem;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
     border-radius: 1.5rem;
 }
 
@@ -40,19 +40,20 @@ article {
 
 h1 {
      text-align: left;
-     font-size: 2.5rem;
+     font-size: 2.2rem;
      color: #1b4965;;
-     margin-top: 2rem;
-     margin-left: 3.5rem;
+     margin-top: 1rem;
+     margin-left: 2rem;
 }
 
 .article-container-aerobics {
     display: flex;
     flex-direction: column;
-    background-color: #7aafb8;
+    background-color: #FFFFFF;
     border-radius: 1rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
-    padding: 2rem;
+    padding:  2rem 2rem;
+    padding-bottom: 5rem;
     gap:2rem;
 }
 
@@ -63,35 +64,37 @@ h1 {
   border-radius: 0.8rem;
   box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);   
   margin-top: 2rem;
-  margin-left: 3.5rem;
+  margin-left: 2rem;
 }
 
 .article-container-aquatic {
     display: flex;
-    background-color: #7aafb8;
+    background-color: #FFFFFF;
     border-radius: 1rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
-    padding: 2.5rem;
-    gap: 2rem;
+    padding: 2rem 2rem;
+    padding-bottom: 5rem;
+    gap:2rem;
 }
 
 .image-aquatic img {
     object-fit: cover;
-    width: 70vh;
+    width: 55vh;
     border-radius: 0.8rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
-    margin-top: 4rem; 
-    margin-left: 4rem;
+    margin-top: 3rem; 
+    margin-left: 1.5rem;
     
 }
 
 .article-container-aquafit {
     display: flex;
     flex-direction: column;
-    background-color: #7aafb8;
+    background-color: #FFFFFF;
     border-radius: 1rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);
-    padding: 2.5rem;
+    padding:  2rem 2rem;
+    padding-bottom: 5rem;
     
 }
 
@@ -100,8 +103,9 @@ h1 {
     width: 100vh;
     border-radius: 0.8rem;
     box-shadow: 0 15px 20px rgba(0, 0, 0, 0.356);   
-    margin-top: 3.5rem;
-    margin-left: 3.5rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 h3 {
@@ -109,14 +113,15 @@ h3 {
     padding: 0 0 1rem;
     margin-top: 2rem;
     font-size: 1.5rem;
-    padding-left: 3rem;
+    padding-left: 2rem;
 }
  
 .article-paragraph h2 {
+    font-size: 1.7;
     color: #1b4965;
     padding: 0 0 1rem;
     margin-top: 2rem;
-    padding-left: 3rem;
+    padding-left: 2rem;
 }
 
 .article-paragraph p {
@@ -125,8 +130,8 @@ h3 {
     font-size: 1.3rem;
     line-height: 1.5;
     letter-spacing: 1px;
-    padding-left: 3rem;
-    padding-right: 4rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     text-align: justify;
     display: table;
     word-break: break-word;
@@ -134,10 +139,9 @@ h3 {
 
  li {
     display: list-item;
-    padding: 0.5rem;
     font-size: 1.3rem;
-    padding-left: 3rem;
-    padding-right: 4rem;
+    padding: 1rem;
+    padding-left: 2rem;
 }
 
 .bold {
@@ -190,7 +194,7 @@ h3 {
 }
    .article-paragraph p {
     margin: 0.5rem 0;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding-left: 0.3rem;
     padding-right: 0.3rem;
     word-spacing: 2px;
@@ -200,10 +204,9 @@ h3 {
 li {
     display: list-item;
     padding: 0.5rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 1rem;
-    padding-left: 0rem;
-    padding-right: 0rem;
+
 }
 
 .article-container-aquatic {
