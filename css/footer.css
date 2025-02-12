@@ -18,8 +18,7 @@ footer {
 
 .main-content {
     display: flex;
-    gap: 3rem;
-   
+    gap: 4rem;
 }
 
 .main-content .left-box {
@@ -43,6 +42,10 @@ footer {
     padding: 0.5rem 0 0;
     padding-right: 1.5rem;
     margin-top: 1.2rem;
+    text-align: justify; 
+    line-height: 1.5; 
+    letter-spacing: 1px; 
+    word-spacing: 1px;
 }
 
 .social a i {

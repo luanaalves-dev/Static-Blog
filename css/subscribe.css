@@ -38,7 +38,7 @@
   
   input {
     padding: .8rem 1rem;
-    width: 60%;
+    width: 40%;
     border-radius: 5rem;
     outline: none;
     border: .1rem solid #d1d1d1;
@@ -49,13 +49,14 @@
     color: #d1d1d1;
   }
   
-  .subscribe-btn {
-    padding: .8rem 2rem;
+  .form-input .subscribe-btn {
+    padding: .7rem;
+    width: 16%;
     border-radius: 5rem;
     background:  #8dc63f;
     opacity: 0.9;
     color: #fff;
-    font-size: .7rem;
+    font-size: 1rem;
     border: none;
     outline: none;
     cursor: pointer;
